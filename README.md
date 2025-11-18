@@ -9,7 +9,7 @@ in the terminal , execute this commands:
 cd frontend 
 npm install --from-lock-json 
 npm audit fix 
-# you have to change env.exemple to env, 
+you have to change env.exemple to env, 
 export NODE_OPTIONS=--openssl-legacy-provider 
 npm run start
 
