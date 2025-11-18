@@ -10,7 +10,7 @@ from keras.models import load_model
 from pathlib import Path
 
 # -------- Config --------
-IMG_SIZE = 224  # adapte à la taille utilisée à l'entraînement
+IMG_SIZE = 256  # adapte à la taille utilisée à l'entraînement
 CLASS_NAMES = ['benign', 'malignant', 'normal']
 # dossier du fichier: .../end-to-end-potato-disease-classification-using-cnn/api/main.py
 THIS_DIR = Path(__file__).resolve().parent
