@@ -19,7 +19,7 @@ MODELS_DIR = PROJECT_DIR / "models"
 
 # --- Choisis le bon fichier modèle :
 # Si tu as un .h5:
-MODEL_PATH = MODELS_DIR / "predict_breast_cancer_version1.h5"
+MODEL_PATH = MODELS_DIR / "predict_breast_cancer_version2.h5"
 # Si tu as un .keras à la place :
 # MODEL_PATH = MODELS_DIR / "1.keras"
 
